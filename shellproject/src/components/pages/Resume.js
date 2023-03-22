@@ -1,11 +1,12 @@
 import React from "react"
+import "../assets/App.css"
 
 
 function Resume(){
    return(
     <div className="resume">
           <h2>Resume</h2>
-          <a> My Resume </a>
+     
         <div className="proficiencies">
           <div>
           <h3>Front-End Development Skills</h3>

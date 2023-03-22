@@ -1,5 +1,6 @@
 import React from "react";
-import "../assets/index.css";
+import "../assets/App.css"
+
 
 function Portfolio() {
   return (
