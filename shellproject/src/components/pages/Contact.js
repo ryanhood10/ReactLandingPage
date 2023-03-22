@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { validateEmail } from '../utils/validators';
-import "./assets/index.css";
+import { validateEmail } from '../../utils/validators';
+import "../assets/index.css";
 
 function Contact() {
   // Set up state for form data and errors

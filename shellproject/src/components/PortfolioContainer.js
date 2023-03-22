@@ -2,10 +2,10 @@
 import React, { useState } from 'react';
 
 //import components
-import Portfolio from '../pages/Portfolio';
-import About from '../pages/About';
-import Resume from '../pages/Resume';
-import Contact from '../pages/Contact';
+import Portfolio from './pages/Portfolio';
+import About from './pages/About';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 
 export default function PortfolioContainer({ children }) {
   const [currentPage, setCurrentPage] = useState('About');
