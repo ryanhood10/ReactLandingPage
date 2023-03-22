@@ -23,7 +23,7 @@ export default function PortfolioContainer({ children }) {
     return <Contact />;
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
+ // const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
