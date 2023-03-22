@@ -8,7 +8,9 @@ import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer({ children }) {
-  const [currentPage, setCurrentPage] = useState('About');
+
+  //add setCurrentPage into the const array 
+  const [currentPage] = useState('About');
 
   const renderPage = () => {
     if (currentPage === 'Portfolio') {
