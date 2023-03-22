@@ -19,6 +19,8 @@ function Portfolio() {
             />
             <br />
           </a>
+          </div>
+        <div className="project-container">
           <a href="https://ryanhood10.github.io/Challenge1Horiseon/">
             <img
               src="website-bottom-screen-shot.png"

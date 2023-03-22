@@ -3,12 +3,12 @@ import React from 'react';
 function Header({ handlePageChange }) {
   return (
     <header>
-      {/* Your header content */}
+      <h1>My Portfolio</h1>
       <nav>
         <ul>
           <li>
             <a href="#about" onClick={() => handlePageChange('About')}>
-              About Me
+              About
             </a>
           </li>
           <li>
@@ -17,13 +17,13 @@ function Header({ handlePageChange }) {
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={() => handlePageChange('Contact')}>
-              Contact
+            <a href="#resume" onClick={() => handlePageChange('Resume')}>
+              Resume
             </a>
           </li>
           <li>
-            <a href="#resume" onClick={() => handlePageChange('Resume')}>
-              Resume
+            <a href="#contact" onClick={() => handlePageChange('Contact')}>
+              Contact
             </a>
           </li>
         </ul>
