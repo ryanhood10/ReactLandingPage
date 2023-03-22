@@ -6,10 +6,10 @@ import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Header from './Header';
+
 
 export default function PortfolioContainer({ children }) {
-
-  //add setCurrentPage into the const array 
   const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
@@ -29,6 +29,7 @@ export default function PortfolioContainer({ children }) {
 
   return (
     <div>
+      <Header handlePageChange={handlePageChange} />
       {children}
       {renderPage()}
     </div>
