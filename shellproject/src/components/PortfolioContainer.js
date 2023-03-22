@@ -1,33 +1,34 @@
-//encapsulates everything main page 
-import { NavLink } from 'react-router-dom';
+//encapsulates everything on the main page
+import React, { useState } from 'react';
 
-function Navigation() {
+//import components
+import Portfolio from '../pages/Portfolio';
+import About from '../pages/About';
+import Resume from '../pages/Resume';
+import Contact from '../pages/Contact';
+
+export default function PortfolioContainer({ children }) {
+  const [currentPage, setCurrentPage] = useState('About');
+
+  const renderPage = () => {
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    return <Contact />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <nav>
-      <ul>
-        <li>
-          <NavLink exact to="/" activeClassName="active">
-            About Me
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/portfolio" activeClassName="active">
-            Portfolio
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/contact" activeClassName="active">
-            Contact
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/resume" activeClassName="active">
-            Resume
-          </NavLink>
-        </li>
-      </ul>
-    </nav>
+    <div>
+      {children}
+      {renderPage()}
+    </div>
   );
 }
-
-export default Navigation;
