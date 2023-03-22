@@ -1,10 +1,10 @@
 import React from "react"
-import PDF from "../assets/resume.pdf"
+
 
 function Resume(){
    return(
     <div className="resume">
-          <h2>Resume Skills</h2>
+          <h2>Resume</h2>
           <a> My Resume </a>
         <div className="proficiencies">
           <div>
