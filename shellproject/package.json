@@ -37,18 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ryanhood10/ReactShell.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ryanhood10/ReactShell/issues"
-  },
-  "homepage": "https://github.com/ryanhood10/ReactShell#readme",
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
