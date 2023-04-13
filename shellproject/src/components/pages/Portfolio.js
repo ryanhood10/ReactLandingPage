@@ -109,41 +109,103 @@ function Portfolio() {
               />
             </a>
           </div>
+
+          <div>
+            <h4> Weather Forecast</h4>
+            <p> This application takes in a weather API and projects a 5 day forecast, with icons to match the weather accordingly. It allows the user to search for different cities, and also stores recent searches in local storage until "Clear Searches" button is clicked.
+              <br></br>
+              Here is the link to the GitHub repo: https://github.com/ryanhood10/Module6Challenge
+              <br></br>
+              Click one of the pictures below to go to the applications live link!
+            </p>
+            <a href="https://ryanhood10.github.io/Module6Challenge/">
+              <img
+              src="WeatherForecast1.png"
+              alt="Weather Forecast"
+              height="300"
+              href="#"
+              />
+            </a>
+            <a href="https://ryanhood10.github.io/Module6Challenge/">
+              <img
+              src="WeatherForecast2.png"
+              alt="Weather Forecast"
+              height="300"
+              href="#"
+              />
+            </a>
+          </div>
+
+          <div>
+            <h4> Local Storage Single Day Planner</h4>
+            <p> Here is an application where I used dayJS to take the current time from the user and change the shade of the textboxes according to past, present and future. The user can input events for a single day in their local storage.
+              <br></br>
+              Here is the link to the GitHub repo: https://github.com/ryanhood10/DayPlanner   , click on the photo below to go to the live application link.
+            </p>
+            <a href="https://ryanhood10.github.io/DayPlanner/">
+              <img
+              src="DayPlanner1.png"
+              alt="DayPlanner"
+              height="300"
+              href="#"
+              />
+            </a>
+          </div>
+
+          <div>
+            <h4> Javascript Quiz </h4>
+            <p> This is an application I built only using Javascript, HTML and CSS. The user is presented with a "start quiz" button. Once it is clicked, a timer of 1:30 begins counting down. The user is asked 5 quiz questions that must be answered before time expires. When time expires or the user answers all 5 questions, then you are presented with your quiz grade.
+              <br></br>
+              Here is the link to the GitHub repo: https://github.com/ryanhood10/QuizAppJava . Click the picture below to go to the applications live link!
+               </p>
+               <a href="https://ryanhood10.github.io/QuizAppJava/">
+              <img
+              src="JavascriptQuiz1.png"
+              alt="Javascript Quiz"
+              height="300"
+              href="#"
+              />
+            </a>
+          </div>
+
+          <div>
+            <h4> Password Generator </h4>
+            <p> This application was made with Javascript, HTML and CSS. The user is prompted for the following requirements of a randomly generated password: 
+              <br></br>
+              1. How many characters? 2. Do you want numbers? 3. Do you want lowercase? 4. Do you want uppercase? 5. Include symbols?
+              <br></br>
+              Then the user is presented a randomly generated password with their requirements. GitHub repo link: https://github.com/ryanhood10/Pass-Generator
+              <br></br>
+              Click picture below to go to applications live link!
+               </p>
+               <a href="https://ryanhood10.github.io/Pass-Generator/">
+                <img
+                src="PasswordGenerator1.jpg"
+                alt="Password Generator"
+                height= "300"
+                href= "#"
+                />
+               </a>
+               <a href="https://ryanhood10.github.io/Pass-Generator/">
+                <img
+                src="PasswordGenerator2.jpg"
+                alt="Password Generator"
+                height= "300"
+                href= "#"
+                />
+               </a>
+          </div>
        
 
-
-
-
         <div className="project-container">
-          <h4>Horiseon Project</h4>
-          <a href="https://ryanhood10.github.io/Challenge1Horiseon/">
+          <h4>My Old Landing Page</h4>
+          <p> Here is my old landing page that I made just using HTML and CSS. I don't have much use for it now, but it has a dad joke API at the bottom of the screen where a user is given a new joke everytime the button is clicked.
+            <br></br>
+            This used to be the page that held my Portfolio. (It is not up to date like this one). Click the picture below to go to the live link! </p>
+          <a href="https://ryanhood10.github.io/RyansLandingPage/">
             <img
-              src="website-top-screen-shot.png"
-              alt="Webpage Example 1"
-              height="300"
-              href="#"
-            />
-            <br />
-          </a>
-        </div>
-        <div className="project-container">
-          <a href="https://ryanhood10.github.io/Challenge1Horiseon/">
-            <img
-              src="website-bottom-screen-shot.png"
-              alt="Webpage Example 2"
-              height="300"
-              href="#"
-            />
-            <br />
-          </a>
-        </div>
-
-        <div className="project-container">
-          <h4>Flexbox Project</h4>
-          <a href="https://google.com">
-            <img
-              src="Screenshot slack.png"
-              alt="Project 2g"
+              src="LandingPage1.jpg"
+              alt="My Old Landing Page"
               height="300"
               href="#"
             />
