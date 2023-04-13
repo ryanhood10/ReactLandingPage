@@ -10,17 +10,39 @@ function Portfolio() {
 
         <div className="project-container">
           <h4> Social Media Application </h4>
+          <p> This is a collaboration project. I was responsible for part of the back-end, authentication and connecting the front and back end.
+            <br></br>
+            Here is the GitHub repo link: https://github.com/JuanMullert/WOTS_PROJECT
+             <br></br>
+             Click one of the pictures below to go to the applications live link!
+             </p>
           <a href="https://wotsproject.herokuapp.com/">
             <img
-            src=""
+            src="WOTS1.png"
+            alt="Social Media App"
+            height="100"
+            href= "#"
+            />
+          </a>
+          <a href="https://wotsproject.herokuapp.com/">
+            <img
+            src="WOTS2.png"
             alt="Social Media App"
             height="200"
             href= "#"
             />
           </a>
-        </div>
+          <a href="https://wotsproject.herokuapp.com/">
+            <img
+            src="WOTS3.png"
+            alt="Social Media App"
+            height="200"
+            href= "#"
+            />
+          </a>
+        
  
-        <div className="project-container">
+        
           <h4> Book Search Application </h4>
           <a href="https://search4booksapplication.herokuapp.com/">
             <img
@@ -31,7 +53,7 @@ function Portfolio() {
             />
           </a>
           <p>Here is my GitHub repo link: <a href="https://github.com/ryanhood10/SearchBookEngine"> https://github.com/ryanhood10/SearchBookEngine </a> </p>
-        </div>
+       
 
         <div>
           <h4> Social Media API </h4>
@@ -211,6 +233,7 @@ function Portfolio() {
             />
           </a>
         </div>
+      </div>
       </div>
        </>
     
