@@ -60,19 +60,22 @@ function Portfolio() {
 
         <div>
           <h4> Social Media API </h4>
-          <p> Here is my GitHub repo link: https://github.com/ryanhood10/APISocialNetwork
+          <p> Here is my GitHub repo link: <a href="https://github.com/ryanhood10/APISocialNetwork">https://github.com/ryanhood10/APISocialNetwork </a>
             <br></br>
-            Here is my walkthrough video for the API: https://vimeo.com/808889435/a043a20c80 </p>
+            Here is my walkthrough video for the API: <a href="https://vimeo.com/808889435/a043a20c80">https://vimeo.com/808889435/a043a20c80 </a>  
+            </p>
         </div>
 
         <div>
           <h4>Here is my gist written about Regex expressions</h4>
-          <p> https://gist.github.com/ryanhood10/105761ece421c3b00f36f0065b127e19https://gist.github.com/ryanhood10/105761ece421c3b00f36f0065b127e19</p>
+          <p> <a href="https://gist.github.com/ryanhood10/105761ece421c3b00f36f0065b127e19https://gist.github.com/ryanhood10/105761ece421c3b00f36f0065b127e19"> https://gist.github.com/ryanhood10/105761ece421c3b00f36f0065b127e19https://gist.github.com/ryanhood10/105761ece421c3b00f36f0065b127e19
+              </a>
+          </p>
         </div>
 
         <div>
           <h4> Project Manager Application </h4>
-          <p> (written with HandleBars) here is GitHub repo: https://github.com/ryanhood10/ProjectManager </p>
+          <p> (written with HandleBars) here is GitHub repo: <a href="https://github.com/ryanhood10/ProjectManager"> https://github.com/ryanhood10/ProjectManager </a></p>
           <div className="image-wrapper">
           <a href="https://floating-bayou-84303.herokuapp.com/">
             <img 
@@ -87,14 +90,14 @@ function Portfolio() {
 
         <div>
           <h4> E-commerce Back-End MySQL database </h4>
-                    <p> Here is the GitHub link to my Ecommerce Back-End database: https://github.com/ryanhood10/ECommerceApp </p>
+                    <p> Here is the GitHub link to my Ecommerce Back-End database: <a href="https://github.com/ryanhood10/ECommerceApp"> https://github.com/ryanhood10/ECommerceApp </a> </p>
         </div>
 
         <div>
           <h4>Team Builder Application</h4>
           <p> This application uses inquirer to generate an HTML page with cards of the users on the team. 
             <br></br>
-            Walkthrough Link: https://vimeo.com/797531502/4b44fd00f8
+            Walkthrough Link: <a href="https://vimeo.com/797531502/4b44fd00f8">  https://vimeo.com/797531502/4b44fd00f8 </a>
           </p>
           <div className="image-wrapper">
           <a href="https://github.com/ryanhood10/TeamPageCreator">
@@ -112,7 +115,7 @@ function Portfolio() {
             <h4> ReadMe Generator </h4>
             <p> This application uses inquirer to prompt the user and then generate a README.md file
               <br></br>
-              Here is the GitHub link: https://github.com/ryanhood10/ReadMeGenerator
+              Here is the GitHub link: <a href="https://github.com/ryanhood10/ReadMeGenerator"> https://github.com/ryanhood10/ReadMeGenerator </a>
              <br></br> 
               Walkthrough video: 
             </p>
@@ -145,7 +148,7 @@ function Portfolio() {
             <h4> Weather Forecast</h4>
             <p> This application takes in a weather API and projects a 5 day forecast, with icons to match the weather accordingly. It allows the user to search for different cities, and also stores recent searches in local storage until "Clear Searches" button is clicked.
               <br></br>
-              Here is the link to the GitHub repo: https://github.com/ryanhood10/Module6Challenge
+              Here is the link to the GitHub repo: <a href="https://github.com/ryanhood10/Module6Challenge"> https://github.com/ryanhood10/Module6Challenge </a>
               <br></br>
               Click one of the pictures below to go to the applications live link!
             </p>
@@ -173,7 +176,7 @@ function Portfolio() {
             <h4> Local Storage Single Day Planner</h4>
             <p> Here is an application where I used dayJS to take the current time from the user and change the shade of the textboxes according to past, present and future. The user can input events for a single day in their local storage.
               <br></br>
-              Here is the link to the GitHub repo: https://github.com/ryanhood10/DayPlanner   , click on the photo below to go to the live application link.
+              Here is the link to the GitHub repo: <a href="https://github.com/ryanhood10/DayPlanner"> https://github.com/ryanhood10/DayPlanner </a>  , click on the photo below to go to the live application link.
             </p>
             <div className="image-wrapper">
             <a href="https://ryanhood10.github.io/DayPlanner/">
@@ -191,7 +194,7 @@ function Portfolio() {
             <h4> Javascript Quiz </h4>
             <p> This is an application I built only using Javascript, HTML and CSS. The user is presented with a "start quiz" button. Once it is clicked, a timer of 1:30 begins counting down. The user is asked 5 quiz questions that must be answered before time expires. When time expires or the user answers all 5 questions, then you are presented with your quiz grade.
               <br></br>
-              Here is the link to the GitHub repo: https://github.com/ryanhood10/QuizAppJava . Click the picture below to go to the applications live link!
+              Here is the link to the GitHub repo: <a href="https://github.com/ryanhood10/QuizAppJava"> https://github.com/ryanhood10/QuizAppJava </a> . Click the picture below to go to the applications live link!
                </p>
                <div className="image-wrapper">
                <a href="https://ryanhood10.github.io/QuizAppJava/">
@@ -211,7 +214,7 @@ function Portfolio() {
               <br></br>
               1. How many characters? 2. Do you want numbers? 3. Do you want lowercase? 4. Do you want uppercase? 5. Include symbols?
               <br></br>
-              Then the user is presented a randomly generated password with their requirements. GitHub repo link: https://github.com/ryanhood10/Pass-Generator
+              Then the user is presented a randomly generated password with their requirements. GitHub repo link: <a href="https://github.com/ryanhood10/Pass-Generator">https://github.com/ryanhood10/Pass-Generator</a>
               <br></br>
               Click picture below to go to applications live link!
                </p>
