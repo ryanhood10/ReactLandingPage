@@ -30,7 +30,7 @@ function Portfolio() {
             href= "#"
             />
           </a>
-          <p>Here is my GitHub repo link: https://github.com/ryanhood10/SearchBookEngine </p>
+          <p>Here is my GitHub repo link: <a href="https://github.com/ryanhood10/SearchBookEngine"> https://github.com/ryanhood10/SearchBookEngine </a> </p>
         </div>
 
         <div>
@@ -59,8 +59,57 @@ function Portfolio() {
         </div>
 
         <div>
-
+          <h4> E-commerce Back-End MySQL database </h4>
+                    <p> Here is the GitHub link to my Ecommerce Back-End database: https://github.com/ryanhood10/ECommerceApp </p>
         </div>
+
+        <div>
+          <h4>Team Builder Application</h4>
+          <p> This application uses inquirer to generate an HTML page with cards of the users on the team. 
+            <br></br>
+            Walkthrough Link: https://vimeo.com/797531502/4b44fd00f8
+          </p>
+          <a href="https://github.com/ryanhood10/TeamPageCreator">
+            <img 
+            src="TeamBuilder1.jpg"
+            alt="Team Creator"
+            height= "300"     
+            href="#"     
+            />
+          </a>
+          </div>  
+
+          <div>
+            <h4> ReadMe Generator </h4>
+            <p> This application uses inquirer to prompt the user and then generate a README.md file
+              <br></br>
+              Here is the GitHub link: https://github.com/ryanhood10/ReadMeGenerator
+             <br></br> 
+              Walkthrough video: 
+            </p>
+          </div>
+
+          <div>
+            <h4> The Daily Planner </h4>
+            <p> Here is a collaboration project. We made an interactive site where the user is presented with an interactive calander of the current month. A user can toggle between adding or removing holidays (brought in from an API), add their own events in the calander (stored in local storage), and see events for that month (brought in from Ticketmaster API). The user also has the option to search for other cities, or share their location- the geolocated automatically shows an events calander for local events to the user.  </p>
+            <a href="https://nmotley92.github.io/group-project/">
+              <img
+              src="DailyPlanner1.png"
+              alt="The Daily Planner"
+              height="300"
+              href="#"
+              />
+            </a>
+            <a href="https://nmotley92.github.io/group-project/">
+              <img
+              src="DailyPlanner2.jpg"
+              alt="The Daily Planner"
+              height="300"
+              href="#"
+              />
+            </a>
+          </div>
+       
 
 
 
@@ -71,7 +120,7 @@ function Portfolio() {
             <img
               src="website-top-screen-shot.png"
               alt="Webpage Example 1"
-              height="400"
+              height="300"
               href="#"
             />
             <br />
