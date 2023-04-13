@@ -16,6 +16,7 @@ function Portfolio() {
              <br></br>
              Click one of the pictures below to go to the applications live link!
              </p>
+              <div className="image-wrapper">
           <a href="https://wotsproject.herokuapp.com/">
             <img
             src="WOTS1.png"
@@ -40,10 +41,11 @@ function Portfolio() {
             href= "#"
             />
           </a>
-        
+            </div>
  
-        
+        <div>
           <h4> Book Search Application </h4>
+          <div className="image-wrapper">
           <a href="https://search4booksapplication.herokuapp.com/">
             <img
             src="BookSearch1.jpg"
@@ -52,8 +54,9 @@ function Portfolio() {
             href= "#"
             />
           </a>
+          </div>
           <p>Here is my GitHub repo link: <a href="https://github.com/ryanhood10/SearchBookEngine"> https://github.com/ryanhood10/SearchBookEngine </a> </p>
-       
+       </div>
 
         <div>
           <h4> Social Media API </h4>
@@ -63,13 +66,14 @@ function Portfolio() {
         </div>
 
         <div>
-          <h5>Here is my gist written about Regex expressions</h5>
+          <h4>Here is my gist written about Regex expressions</h4>
           <p> https://gist.github.com/ryanhood10/105761ece421c3b00f36f0065b127e19https://gist.github.com/ryanhood10/105761ece421c3b00f36f0065b127e19</p>
         </div>
 
         <div>
           <h4> Project Manager Application </h4>
           <p> (written with HandleBars) here is GitHub repo: https://github.com/ryanhood10/ProjectManager </p>
+          <div className="image-wrapper">
           <a href="https://floating-bayou-84303.herokuapp.com/">
             <img 
             src="ProjectPilot1.jpg"
@@ -78,6 +82,7 @@ function Portfolio() {
             href="#"
             />
           </a>
+          </div>
         </div>
 
         <div>
@@ -91,6 +96,7 @@ function Portfolio() {
             <br></br>
             Walkthrough Link: https://vimeo.com/797531502/4b44fd00f8
           </p>
+          <div className="image-wrapper">
           <a href="https://github.com/ryanhood10/TeamPageCreator">
             <img 
             src="TeamBuilder1.jpg"
@@ -99,6 +105,7 @@ function Portfolio() {
             href="#"     
             />
           </a>
+          </div>
           </div>  
 
           <div>
@@ -114,6 +121,7 @@ function Portfolio() {
           <div>
             <h4> The Daily Planner </h4>
             <p> Here is a collaboration project. We made an interactive site where the user is presented with an interactive calander of the current month. A user can toggle between adding or removing holidays (brought in from an API), add their own events in the calander (stored in local storage), and see events for that month (brought in from Ticketmaster API). The user also has the option to search for other cities, or share their location- the geolocated automatically shows an events calander for local events to the user.  </p>
+            <div className="image-wrapper">
             <a href="https://nmotley92.github.io/group-project/">
               <img
               src="DailyPlanner1.png"
@@ -130,6 +138,7 @@ function Portfolio() {
               href="#"
               />
             </a>
+            </div>
           </div>
 
           <div>
@@ -140,6 +149,7 @@ function Portfolio() {
               <br></br>
               Click one of the pictures below to go to the applications live link!
             </p>
+            <div className="image-wrapper">
             <a href="https://ryanhood10.github.io/Module6Challenge/">
               <img
               src="WeatherForecast1.png"
@@ -156,6 +166,7 @@ function Portfolio() {
               href="#"
               />
             </a>
+            </div>
           </div>
 
           <div>
@@ -164,6 +175,7 @@ function Portfolio() {
               <br></br>
               Here is the link to the GitHub repo: https://github.com/ryanhood10/DayPlanner   , click on the photo below to go to the live application link.
             </p>
+            <div className="image-wrapper">
             <a href="https://ryanhood10.github.io/DayPlanner/">
               <img
               src="DayPlanner1.png"
@@ -172,6 +184,7 @@ function Portfolio() {
               href="#"
               />
             </a>
+            </div>
           </div>
 
           <div>
@@ -180,6 +193,7 @@ function Portfolio() {
               <br></br>
               Here is the link to the GitHub repo: https://github.com/ryanhood10/QuizAppJava . Click the picture below to go to the applications live link!
                </p>
+               <div className="image-wrapper">
                <a href="https://ryanhood10.github.io/QuizAppJava/">
               <img
               src="JavascriptQuiz1.png"
@@ -188,6 +202,7 @@ function Portfolio() {
               href="#"
               />
             </a>
+            </div>
           </div>
 
           <div>
@@ -200,6 +215,7 @@ function Portfolio() {
               <br></br>
               Click picture below to go to applications live link!
                </p>
+               <div className="image-wrapper">
                <a href="https://ryanhood10.github.io/Pass-Generator/">
                 <img
                 src="PasswordGenerator1.jpg"
@@ -216,6 +232,7 @@ function Portfolio() {
                 href= "#"
                 />
                </a>
+               </div>
           </div>
        
 
@@ -224,6 +241,7 @@ function Portfolio() {
           <p> Here is my old landing page that I made just using HTML and CSS. I don't have much use for it now, but it has a dad joke API at the bottom of the screen where a user is given a new joke everytime the button is clicked.
             <br></br>
             This used to be the page that held my Portfolio. (It is not up to date like this one). Click the picture below to go to the live link! </p>
+            <div className="image-wrapper">
           <a href="https://ryanhood10.github.io/RyansLandingPage/">
             <img
               src="LandingPage1.jpg"
@@ -232,6 +250,7 @@ function Portfolio() {
               href="#"
             />
           </a>
+          </div>
         </div>
       </div>
       </div>
