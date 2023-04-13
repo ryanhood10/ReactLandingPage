@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReactLandingPage/static/css/main.511f4e1c.css",
+    "main.js": "/ReactLandingPage/static/js/main.44705f3d.js",
+    "index.html": "/ReactLandingPage/index.html",
+    "main.511f4e1c.css.map": "/ReactLandingPage/static/css/main.511f4e1c.css.map",
+    "main.44705f3d.js.map": "/ReactLandingPage/static/js/main.44705f3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.511f4e1c.css",
+    "static/js/main.44705f3d.js"
+  ]
+}
