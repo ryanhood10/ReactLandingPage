@@ -6,7 +6,11 @@ import "../assets/App.css"
 function About(){
     return(
         <div className="about">
-            <h4 className="name-header">Ryan Hood</h4>
+            <h4 className="name-header">Ryan Hood</h4> 
+            <img
+            src="Profile1.jpg"
+            height="100px"
+            />
             <p>Hey, I'm Ryan. I'm a Full-Stack Software Developer from Nashville, Tennessee, with a focus on JavaScript. I graduated from Vanderbilt University's Full-Stack Coding Program, and I have hands-on experience with REST APIs, MongoDB, Express, React, and Node.js. I love building cool and dynamic applications that make a difference.
 <br></br>
 I consider myself a problem solver who's great at time management and communication. When it comes to work, I believe in a strong work ethic, always striving for quality, and never stopping learning. My continuous learning journey includes various platforms like YouTube, Udemy, iTalki, Google Certification and online courses that help me stay up-to-date with the latest technologies.
