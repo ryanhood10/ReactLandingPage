@@ -1,1 +1,0 @@
-// write a template for each individual project items. loop over, give it propertiesnpm run start
