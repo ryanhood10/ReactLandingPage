@@ -19,7 +19,7 @@ function Portfolio() {
               <div className="image-wrapper">
           <a href="https://wotsproject.herokuapp.com/">
             <img
-            src="WOTS1.png"
+            src={`${process.env.PUBLIC_URL}/WOTS1.png`}
             alt="Social Media App"
             height="100"
             href= "#"
@@ -27,7 +27,7 @@ function Portfolio() {
           </a>
           <a href="https://wotsproject.herokuapp.com/">
             <img
-            src="WOTS2.png"
+            src={`${process.env.PUBLIC_URL}/WOTS2.png`}
             alt="Social Media App"
             height="200"
             href= "#"
@@ -35,7 +35,7 @@ function Portfolio() {
           </a>
           <a href="https://wotsproject.herokuapp.com/">
             <img
-            src="WOTS3.png"
+            src={`${process.env.PUBLIC_URL}/WOTS3.png`}
             alt="Social Media App"
             height="200"
             href= "#"
@@ -48,7 +48,7 @@ function Portfolio() {
           <div className="image-wrapper">
           <a href="https://search4booksapplication.herokuapp.com/">
             <img
-            src="BookSearch1.jpg"
+            src={`${process.env.PUBLIC_URL}/BookSearch1.jpg`}
             alt="Reading List Application"
             height="200"
             href= "#"
@@ -79,7 +79,7 @@ function Portfolio() {
           <div className="image-wrapper">
           <a href="https://floating-bayou-84303.herokuapp.com/">
             <img 
-            src="ProjectPilot1.jpg"
+            src={`${process.env.PUBLIC_URL}/ProjectPilot1.jpg`}
             alt="Project Pilot"
             height="300"
             href="#"
@@ -102,7 +102,7 @@ function Portfolio() {
           <div className="image-wrapper">
           <a href="https://github.com/ryanhood10/TeamPageCreator">
             <img 
-            src="TeamBuilder1.jpg"
+            src={`${process.env.PUBLIC_URL}/TeamBuilder1.jpg`}
             alt="Team Creator"
             height= "300"     
             href="#"     
@@ -127,7 +127,7 @@ function Portfolio() {
             <div className="image-wrapper">
             <a href="https://nmotley92.github.io/group-project/">
               <img
-              src="DailyPlanner1.png"
+              src={`${process.env.PUBLIC_URL}/DailyPlanner1.png`}
               alt="The Daily Planner"
               height="300"
               href="#"
@@ -135,7 +135,7 @@ function Portfolio() {
             </a>
             <a href="https://nmotley92.github.io/group-project/">
               <img
-              src="DailyPlanner2.jpg"
+              src={`${process.env.PUBLIC_URL}/DailyPlanner2.jpg`}
               alt="The Daily Planner"
               height="300"
               href="#"
@@ -155,7 +155,7 @@ function Portfolio() {
             <div className="image-wrapper">
             <a href="https://ryanhood10.github.io/Module6Challenge/">
               <img
-              src="WeatherForecast1.png"
+              src={`${process.env.PUBLIC_URL}/WeatherForecast1.png`}
               alt="Weather Forecast"
               height="300"
               href="#"
@@ -163,7 +163,7 @@ function Portfolio() {
             </a>
             <a href="https://ryanhood10.github.io/Module6Challenge/">
               <img
-              src="WeatherForecast2.png"
+              src={`${process.env.PUBLIC_URL}/WeatherForecast2.png`}
               alt="Weather Forecast"
               height="300"
               href="#"
@@ -181,7 +181,7 @@ function Portfolio() {
             <div className="image-wrapper">
             <a href="https://ryanhood10.github.io/DayPlanner/">
               <img
-              src="DayPlanner1.png"
+              src={`${process.env.PUBLIC_URL}/DayPlanner1.png`}
               alt="DayPlanner"
               height="300"
               href="#"
@@ -199,7 +199,7 @@ function Portfolio() {
                <div className="image-wrapper">
                <a href="https://ryanhood10.github.io/QuizAppJava/">
               <img
-              src="JavascriptQuiz1.png"
+              src={`${process.env.PUBLIC_URL}/JavascriptQuiz1.png`}
               alt="Javascript Quiz"
               height="300"
               href="#"
@@ -221,7 +221,7 @@ function Portfolio() {
                <div className="image-wrapper">
                <a href="https://ryanhood10.github.io/Pass-Generator/">
                 <img
-                src="PasswordGenerator1.jpg"
+                src={`${process.env.PUBLIC_URL}/PasswordGenerator1.jpg`}
                 alt="Password Generator"
                 height= "300"
                 href= "#"
@@ -229,7 +229,7 @@ function Portfolio() {
                </a>
                <a href="https://ryanhood10.github.io/Pass-Generator/">
                 <img
-                src="PasswordGenerator2.jpg"
+                src={`${process.env.PUBLIC_URL}/PasswordGenerator1.jpg`}
                 alt="Password Generator"
                 height= "300"
                 href= "#"
@@ -247,7 +247,7 @@ function Portfolio() {
             <div className="image-wrapper">
           <a href="https://ryanhood10.github.io/RyansLandingPage/">
             <img
-              src="LandingPage1.jpg"
+              src={`${process.env.PUBLIC_URL}/LandingPage1.jpg`}
               alt="My Old Landing Page"
               height="300"
               href="#"
