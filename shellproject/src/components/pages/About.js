@@ -9,6 +9,7 @@ function About(){
             <h4 className="name-header">Ryan Hood</h4> 
             <img
             src="Profile1.jpg"
+            alt="Ryan Hood"
             height="100px"
             />
             <p>Hey, I'm Ryan. I'm a Full-Stack Software Developer from Nashville, Tennessee, with a focus on JavaScript. I graduated from Vanderbilt University's Full-Stack Coding Program, and I have hands-on experience with REST APIs, MongoDB, Express, React, and Node.js. I love building cool and dynamic applications that make a difference.

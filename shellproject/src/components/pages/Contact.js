@@ -1,8 +1,7 @@
 import React, { useState } from "react";
+import axios from 'axios';
 import { validateEmail } from '../../utils/validators';
 import "../assets/App.css"
-
-
 
 function Contact() {
   // Set up state for form data and errors
@@ -16,17 +15,14 @@ function Contact() {
   // Handle input changes
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    // Update errors for the current input
     const updatedErrors = { ...errors, [name]: value.trim() === '' ? 'Input is required.' : null };
     setErrors(updatedErrors);
-    // Update form data with the new value
     setFormData({ ...formData, [name]: value });
   };
 
   // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Create a new errors object based on the form data
     const newErrors = Object.keys(formData).reduce((acc, key) => {
       if (formData[key].trim() === '') {
         acc[key] = 'Input field is required.';
@@ -37,9 +33,19 @@ function Contact() {
     }, {});
     setErrors(newErrors);
 
-    // If no errors, log the form data
     if (Object.keys(newErrors).length === 0) {
-      console.log(formData);
+      try {
+        const emailData = {
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+        };
+        const response = await axios.post('http://localhost:3001/send-email', emailData);
+        alert(response.data.message);
+      } catch (error) {
+        console.error(error);
+        alert('Failed to send email.');
+      }
     }
   };
 
@@ -73,7 +79,7 @@ function Contact() {
           )}
           {errors[field] && <span className="error">{errors[field]}</span>}
         </div>
-      ))} 
+      ))}
       <button type="submit">Send</button>
     </form>
   );
