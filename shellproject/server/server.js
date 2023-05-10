@@ -5,6 +5,9 @@ const dotenv = require('dotenv');
 
 const path = require('path');
 
+const app = express();
+const PORT = process.env.PORT || 3001;
+
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, 'build')));
 
@@ -17,8 +20,6 @@ app.get('*', (req, res) => {
 // Load environment variables from .env file
 dotenv.config();
 
-const app = express();
-const PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(cors());
