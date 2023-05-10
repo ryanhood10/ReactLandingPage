@@ -40,7 +40,7 @@ function Contact() {
           email: formData.email,
           message: formData.message,
         };
-        const response = await axios.post('http://localhost:3001/send-email', emailData);
+        const response = await axios.post('/send-email', emailData);
         alert(response.data.message);
       } catch (error) {
         console.error(error);
