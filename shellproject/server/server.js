@@ -2,28 +2,20 @@ const express = require('express');
 const cors = require('cors');
 const nodemailer = require('nodemailer');
 const dotenv = require('dotenv');
-
 const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'build')));
-
-// The "catchall" handler: for any request that doesn't
-// match one above, send back React's index.html file.
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname + '/build/index.html'));
-});
-
 // Load environment variables from .env file
 dotenv.config();
-
 
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'build')));
 
 // Send email endpoint
 app.post('/send-email', async (req, res) => {
@@ -52,6 +44,12 @@ app.post('/send-email', async (req, res) => {
     console.error(error);
     res.status(500).json({ message: 'Failed to send email.' });
   }
+});
+
+// The "catchall" handler: for any request that doesn't
+// match one above, send back React's index.html file.
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname + '/build/index.html'));
 });
 
 // Start the server
