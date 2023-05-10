@@ -20,14 +20,13 @@
   },
   "scripts": {
     "start": "node server.js",
+    "heroku-postbuild": "cd shellproject && npm install && npm run build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "cd shellproject && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  }
-  ,
-  
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
