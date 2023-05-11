@@ -41,9 +41,7 @@ const SplashScreen = () => {
       <div>
         <img src ="coding.png" alt="Programming"></img>
       </div>
-
       
-      {/* Add more content here as needed */}
     </div>
 
 
