@@ -12,7 +12,7 @@ function Portfolio() {
           <h4> Social Media Application </h4>
           <p> This is a collaboration project. I was responsible for part of the back-end, authentication and connecting the front and back end.
             <br></br>
-            Here is the GitHub repo link: https://github.com/JuanMullert/WOTS_PROJECT
+            Here is the GitHub repo link: <a href="https://github.com/JuanMullert/WOTS_PROJECT">https://github.com/JuanMullert/WOTS_PROJECT </a>
              <br></br>
              Click one of the pictures below to go to the applications live link!
              </p>
