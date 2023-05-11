@@ -120,6 +120,24 @@
   background-color: #ccdbdc;
   color: #2b2d42;
 }
+.cool-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2b2b2b;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.cool-button:hover {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
 
 .error {
   color: red;
