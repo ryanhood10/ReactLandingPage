@@ -18,11 +18,14 @@ function About(){
 <br></br>
 🌱 When I'm not coding, you can find me hiking, learning Spanish, trading crypto, or playing basketball with friends.
 <br></br>
-👀 Feel free to check out my portfolio to see the skills I've honed and the projects I've worked on.
+🌱 Some books that have left an impression on me are "Rich Dad Poor Dad," "The Richest Man in Babylon," "Tuesdays with Morrie," and I'm currently exploring the book "Simplicity" to improve my thinking as a programmer.
 <br></br>
-📫 Check out my Resume in the Resume page, or shoot me an email through the Contact Form Page.
 <br></br>
-🌱 Some books that have left an impression on me are "Rich Dad Poor Dad," "The Richest Man in Babylon," "Tuesdays with Morrie," and I'm currently exploring the book "Simplicity" to improve my thinking as a programmer.</p>
+👀 Check out my Portfolio to see the skills I've honed and the projects I've worked on.
+<br></br>
+📫 Find contact information in my downloadable Resume, or shoot me an email through the Contact Form Page.
+<br></br>
+</p>
         </div>
     )
 }
