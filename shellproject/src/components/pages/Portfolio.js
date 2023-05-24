@@ -6,9 +6,78 @@ function Portfolio() {
  <>
     <div className="projects-div">
        
-      <h1 id="Portfolio">Portfolio</h1>
+      <h1 id="Portfolio"> My Portfolio</h1>
 
         <div className="project-container">
+        <h4> DishMate </h4>
+          <p> This is my MVP that I am currently developing! 
+            <br></br>
+          <p>Current Functionality: User can create an ingredients list from their kitchen and store it in localstorage. User can set preferences on the Settings page that will also be stored in localstorage. The user has the option to take these ingredients, and customize options like cook time, allergys, diet type, and even language! Click 'Generate Recipe' and the application will prompt OpenAIs chatGPT AI and grab a response for it with a recipe including those parameters. Once a recipe is generated, there's a button to "Save Recipe" that will save that recipe to the "My Recipes" page. There is also another page where you can search for recipes from a very large database: Spoonacular API. Their are buttons to view: Nutrition Facts, Ingredients, and Instructions, as well as a button to "Save Recipe".
+            <br></br>
+            To Do: Currently I am working on: <br></br>
+            1. Building the user database on MongoDB. <br></br>
+            2. Adding filter functionality to the Spoonacular API to use User Preferences. <br></br>
+            3. Adding more Features to Generate Recipe, such as the ability to generate a second, third, forth and fifth different recipe. <br></br>
+            4. Turning the application into a PWA.<br></br>
+            5. Launching to iOs App store.
+          </p>
+            The GitHub link is currently private, but the application beta is currently live!
+             <br></br>
+             Click one of the pictures below to go to the applications live link!
+             </p>
+              <div className="image-wrapper">
+              <a href="https://dish-mate.herokuapp.com/">
+            <img
+            src="DishMateScreenShot6.jpg"
+            alt="DishMate App"
+            height="200"
+            href= "#"
+            />
+          </a>      
+          <a href="https://dish-mate.herokuapp.com/">
+            <img
+            src="DishMateScreenShot1.jpg"
+            alt="DishMate App"
+            height="100"
+            href= "#"
+            />
+          </a>
+          <a href="https://dish-mate.herokuapp.com/">
+            <img
+            src="DishMateScreenShot2.jpg"
+            alt="DishMate App"
+            height="200"
+            href= "#"
+            />
+          </a>
+          <a href="https://dish-mate.herokuapp.com/">
+            <img
+            src="DishMateScreenShot3.jpg"
+            alt="DishMate App"
+            height="200"
+            href= "#"
+            />
+          </a><a href="https://dish-mate.herokuapp.com/">
+            <img
+            src="DishMateScreenShot4.jpg"
+            alt="DishMate App"
+            height="200"
+            href= "#"
+            />
+          </a>
+          <a href="https://dish-mate.herokuapp.com/">
+            <img
+            src="DishMateScreenShot5.jpg"
+            alt="DishMate App"
+            height="200"
+            href= "#"
+            />
+          </a>
+          
+            </div>
+ 
+
+
           <h4> Social Media Application </h4>
           <p> This is a collaboration project. I was responsible for part of the back-end, authentication and connecting the front and back end.
             <br></br>
